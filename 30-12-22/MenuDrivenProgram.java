@@ -166,13 +166,13 @@ public class MenuDrivenProgram {
 			
 			switch(choice) {
 			case 1:{
-				//If they choose science stream call science method
+				//If they choose science stream call science() method
 				System.out.println("You've Choosen Stream Science. And Here are the subjects we offer under Science.");
 				science();
 				System.exit(0);
 					}
 			case 2:{
-				//If they choose arts stream call science method
+				//If they choose arts stream call arts() method
 				System.out.println("You've Choosen Stream Arts. And Here are the subjects we offer under Arts.");
 				arts();
 				System.exit(0);
